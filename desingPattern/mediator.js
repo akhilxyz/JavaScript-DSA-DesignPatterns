@@ -8,7 +8,7 @@
  * @param {User} user - The user who is sending the message.
  * @param {string} message - The message to be logged.
  */
-logMessage(user, message) {
+function logMessage(user, message) {
   const sender = user.getName();
   console.log(`${new Date().toLocaleString()} [${sender}]: ${message}`);
 }
